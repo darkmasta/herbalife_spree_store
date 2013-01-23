@@ -1,0 +1,1206 @@
+--- 
+en: 
+  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: A copy of all mail be sent to the following addresses
+  abbreviation: Abbreviation
+  access_denied: "Giris Engellendi"
+  account: Account
+  account_updated: "Hesap Guncellendi!"
+  action: Action
+  actions: 
+    cancel: Iptal
+    create: Olustur
+    destroy: Sil
+    list: Listele
+    listing: Liste
+    new: Yeni
+    update: Guncelle
+  activate: "Aktiflestir"
+  active: "Aktif"
+  activerecord: 
+    attributes: 
+      spree/address: 
+        address1: Adres
+        address2: "Adres devami"
+        city: Il
+        country: "Ulke"
+        firstname: "Isim"
+        lastname: "Soyisim"
+        phone: Telefon
+        state: "Ilce"
+        zipcode: "Posta Kodu"
+      spree/country: 
+        iso: ISO
+        iso3: ISO3
+        iso_name: "ISO Name"
+        name: Isim
+        numcode: "ISO Code"
+      spree/credit_card: 
+        cc_type: Tip
+        month: Ay
+        number: Sayi
+        verification_value: "Dogrulama Degeri"
+        year: Yil
+      spree/inventory_unit: 
+        state: Ilce
+      spree/line_item: 
+        price: Fiyat
+        quantity: Sayi
+      spree/option_type: 
+        name: Isim
+        presentation: Presentation
+      spree/order:
+        checkout_complete: "Satin Alma Tamamlandi"
+        completed_at: "Tamamlandi"
+        created_at: Siparis Tarihi
+        email: Kullanici E-Mail
+        ip_address: "IP Adresi"
+        item_total: "Urun Total"
+        number: Sayi
+        payment_state: Odeme Durumu
+        shipment_state: Kargo Durumu
+        special_instructions: "Ozel Talimat"
+        state: Durum
+        total: Toplam
+      spree/order/bill_address: 
+        address1: "Fatura adres sokak"
+        city: "Fatura adres sehir"
+        firstname: "Fatura adres isim"
+        lastname: "Fatura adres soyisim"
+        phone: "Fatura adres telefon"
+        state: "Fatura adres ilce"
+        zipcode: "Fatura adres Posta Kodu"
+      spree/order/ship_address: 
+        address1: "Kargo adres sokak"
+        city: "Kargo adres sehir"
+        firstname: "Kargo adres isim"
+        lastname: "Kargo adres soyisim"
+        phone: "Kargo adres telefon"
+        state: "Kargo adres ilce"
+        zipcode: "Kargo adres Posta Kodu"
+      spree/payment_method:
+        name: Isim
+      spree/product: 
+        available_on: "Available On"
+        cost_price: "Tutar Fiyat"
+        description: Aciklama
+        master_price: "Fiyat"
+        name: Isim
+        on_demand: "On Demand"
+        on_hand: "On Hand"
+        shipping_category: "Kargo Kategorisi"
+        tax_category: "Vergi Kategorisi"
+      spree/promotion: 
+        advertise: Reklam
+        code: Kod
+        description: Aciklama
+        event_name: Event Name
+        expires_at: Expires At
+        name: Name
+        path: Path
+        starts_at: Starts At
+        usage_limit: Usage Limit
+      spree/property: 
+        name: Isim
+        presentation: Presentation
+      spree/prototype: 
+        name: Isim
+      spree/return_authorization: 
+        amount: Adet
+      spree/role: 
+        name: Isim
+      spree/state: 
+        abbr: Kisaltma
+        name: Isim
+      spree/tax_category: 
+        description: Aciklama
+        name: Isim
+      spree/tax_rate: 
+        amount: Rate
+        included_in_price: Included in Price
+        show_rate_in_label: Show rate in label
+      spree/taxon: 
+        name: Isim
+        permalink: Permalink
+        position: Position
+      spree/taxonomy: 
+        name: Isim
+      spree/user: 
+        email: Email
+        password: "Sifre"
+        password_confirmation: "Sifre Tekrar"
+      spree/variant: 
+        cost_price: "Ucret"
+        depth: Derinlik
+        height: Uzunluk
+        price: Fiyat
+        sku: SKU
+        weight: Weight
+        width: Width
+      spree/zone: 
+        description: Aciklama
+        name: Isim
+    models: 
+      spree/address: 
+        one: Adres
+        other: Adresler
+      spree/cheque_payment: 
+        one: Cek Odeme
+        other: Cek Odeme
+      spree/country: 
+        one: Ulke
+        other: Ulkeler
+      spree/credit_card: 
+        one: "Kredi Karti"
+        other: "Kredi Kartlari"
+      spree/creditcard_payment: 
+        one: "Kredi Karti ile Odeme"
+        other: "Kredi Karti ile Odemeler"
+      spree/creditcard_txn: 
+        one: "Kredi Karti Islemi"
+        other: "Kredi Karti Islemi"
+      spree/inventory_unit: 
+        one: "Stok Unit"
+        other: "Stok Units"
+      spree/line_item: 
+        one: "Line Item"
+        other: "Line Items"
+      spree/order: 
+        one: Siparis
+        other: Siparisler
+      spree/payment: 
+        one: Odeme
+        other: Odemeler
+      spree/product: 
+        one: Urun
+        other: Urunler
+      spree/property: 
+        one: Property
+        other: Properties
+      spree/prototype: 
+        one: Prototip
+        other: Prototipler
+      spree/return_authorization: 
+        one: Return Authorization
+        other: Return Authorizations
+      spree/role: 
+        one: Roller
+        other: Roller
+      spree/shipment: 
+        one: Kargo
+        other: Kargolar
+      spree/shipping_category: 
+        one: "Kargo Kategorileri"
+        other: "Kargo Katergorileri"
+      spree/state: 
+        one: Ilce
+        other: Ilceler
+      spree/tax_category: 
+        one: "Vergi Kategorisi"
+        other: "Vergi Kategorileri"
+      spree/tax_rate: 
+        one: "Vergi Degeri"
+        other: "Vergi Degerleri"
+      spree/taxon: 
+        one: Grup
+        other: Gruplar
+      spree/taxonomy: 
+        one: Gruplandirma
+        other: Gruplandirmalar
+      spree/user: 
+        one: Kullanici
+        other: Kullanicilar
+      spree/variant: 
+        one: Degisiklik
+        other: Degisilikler
+      spree/zone: 
+        one: Bolge
+        other: Bolgeler
+  add: Ekle
+  add_action_of_type: Add action of type
+  add_category: "Kategori Ekle"
+  add_country: "Ulke Ekle"
+  add_new_header: "Yeni Header Ekle"
+  add_new_style: "Yeni Style Ekle"
+  add_option_type: "Secenek Ekle"
+  add_option_types: "Secenek Tipleri Ekle"
+  add_option_value: "Secenek degeri Ekle"
+  add_product: "Urun Ekle"
+  add_product_properties: "Urun Ozellikleri Ekle"
+  add_rule_of_type: Add rule of type
+  add_scope: "Add a scope"
+  add_state: "Add State"
+  add_to_cart: "Sepete Ekle"
+  add_zone: "Bolge Ekle"
+  additional_item: Ek Esya Ucreti
+  address: Adres
+  address_information: "Adres Bilgisi"
+  adjustment: Ayar
+  adjustment_total: Ayar Toplami
+  adjustments: Ayarlar
+  admin: 
+    mail_methods: 
+      send_testmail: 'Deneme emaili yolla'
+      testmail: 
+        delivery_error: 'Deneme email hata'
+        delivery_success: 'Deneme email basariyla gonderildi'
+        error: 'Deneme mail hata: %{e}'
+  administration: Admin
+  all: "Hepsi"
+  all_departments: Butun Depertmanlar
+  allow_backorders: "Allow Backorders"
+  allow_ssl_in_development_and_test: Development ve test modlarinda SSL kullanimina izin ver
+  allow_ssl_in_production: Production modda SSL kullanimina izin ver
+  allow_ssl_in_staging: Staging modda SSL kullanimina izin ver
+  allowed_ssl_in_production_mode: "Production'da SSL kullanilacak. %{Hayir}"
+  already_registered: Kayitliyim?
+  alt_text: Alternaif text
+  alternative_phone: Alternatif Telefon
+  amount: Miktar
+  analytics_trackers: Analitik Takipcileri
+  and: ve
+  apply: "Uygula"
+  are_you_sure: "Emin misin"
+  are_you_sure_category: "Bu kategoriyi silmek istediginize emin misiniz?"
+  are_you_sure_delete: "Bu kayiti silmek istediginize emin misiniz?"
+  are_you_sure_delete_image: "Bu resimi silmek istediginize emin misiniz?"
+  are_you_sure_option_type: "Bu secenek tipini silmek istediginize emin misiniz?"
+  are_you_sure_you_want_to_capture: "Are you sure you want to capture?"
+  assign_taxon: "Assign Taxon"
+  assign_taxons: "Assign Taxons"
+  attachment_default_style: "Attachments Style"
+  attachment_default_url: "Attachments URL"
+  attachment_path: "Attachments Path"
+  attachment_styles: "Paperclip Styles"
+  authorization_failure: "Authorization Failure"
+  authorized: Authorized
+  availability: "Availability"
+  available_on: "Available On"
+  available_taxons: "Available Taxons"
+  awaiting_return: Awaiting Return
+  back: Geri
+  back_end: Back End
+  back_to_adjustments_list: "Ayarlama Listesine geri don"
+  back_to_images_list: "Resim Listesine geri don"
+  back_to_mail_methods_list: "Mail Metodlari Listesine geri don"
+  back_to_option_tyles_list: "Secenek Tipleri Listesine geri don"
+  back_to_payment_methods_list: "Odeme Metodlari Listesine geri don"
+  back_to_payments_list: "Odeme Listesine geri don"
+  back_to_products_list: "Urun Listesine geri don"
+  back_to_promotions_list: "Promosyon Listesine geri don"
+  back_to_properties_list: "Urun Listesine geri don"
+  back_to_prototypes_list: "Prototip Listesine geri don"
+  back_to_reports_list: "Rapor Listesine geri don"
+  back_to_shipping_categories: "Kargo Kateroleri Listesine geri don"
+  back_to_shipping_methods_list: "Kargo Metodlari Listesine geri don"
+  back_to_states_list: "Back To States List"
+  back_to_store: "Magazaya geri don"
+  back_to_tax_categories_list: "Vergi Kategorileri Listesine geri don"
+  back_to_taxonomies_list: "Taxonomi Listesine geri don"
+  back_to_trackers_list: "Tracker Listesine geri don"
+  back_to_zones_list: "Bolgeler Listesine geri don"
+  backordered: Backordered
+  backordering_is_allowed: "Backordering %{not} allowed"
+  balance_due: "Balance Due"
+  bill_address: "Fatura Adresi"
+  billing: Fatura
+  billing_address: "Fatura Adresleri"
+  both: Hepsi
+  calculator: Hesap Makinasi
+  calculator_settings_warning: "Eger hesap makinasi tipini degistiryorsaniz, once hesap makinasi ayarlarini kaydetmelisiniz"
+  cancel: iptal
+  cancel_my_account: Hesabimi Iptal Et
+  cancel_my_account_description: "Mutsuz musunuz?"
+  canceled: Iptal Edildi
+  cannot_create_payment_without_payment_methods: You cannot create a payment for an order without any payment methods defined.
+  cannot_create_returns: Cannot create returns as this order has not shipped yet.
+  cannot_perform_operation: "Istenen islemi yapamiyoruz."
+  capture: capture
+  card_code: "Kredi Karti Guvenlik Kodu"
+  card_details: "Kart Detaylari"
+  card_number: "Kart Numarasi"
+  card_type_is: Kart Tipi
+  cart: Sepet
+  categories: Kategoriler
+  category: Kategori
+  change: Degistir
+  change_language: "Dili Degistir"
+  change_my_password: "Sifremi Degistir"
+  charge_total: Charge Total
+  charged: Charged
+  charges: Charges
+  checkout: Satin Al
+  cheque: Cek
+  city: Il / Ilce
+  clone: Kopyala
+  code: Kod
+  combine: Birlestir
+  complete: complete
+  complete_list: "Butun Liste"
+  configuration: Konfigirasyon
+  configuration_options: "Konfigirasyon Secenekleri"
+  configurations: Konfigirasyonlar
+  configure_s3: "S3'u konfigure et"
+  configured: Konfigure Edildi
+  confirm: Onayla
+  confirm_delete: "Silmeyi Onayla"
+  confirm_password: "Sifreyi Tekrarla"
+  continue: Devam Et
+  continue_shopping: "Alisverise Devam Et"
+  copy_all_mails_to: Butun Mailleri Kopyala
+  cost_price: "Tutar"
+  count_of_reduced_by: "'%{name}' sayisi %{count} kadar azaltildi"
+  country: Ulke
+  country_based: "Ulke Tabanli"
+  coupon: Kupon
+  coupon_code: Kupon Kodu
+  coupon_code_applied: Kupon kodunuz basariyla uygulanmistir.
+  create: Olustur
+  create_a_new_account: "Yeni Hesap Olustur"
+  create_user_account: Create User Account
+  created_successfully: "Basariyla Olusturuldu"
+  credit: Kredi
+  credit_card: "Kredi Karti"
+  credit_card_capture_complete: "Kredi karti yakalandi"
+  credit_card_payment: "Kredi Karti Odemesi"
+  credit_cards: Kredi Kartlari
+  credit_owed: "Credit Owed"
+  credit_total: Toplam Kredi
+  credits: Krediler
+  currency: Para Birimi
+  currency_settings: "Para Birimi Ayarlari"
+  currency_symbol_position: "Para birimi sembolunu degerden once mi sonra mi koyalim?"
+  current: Simdiki
+  customer: Musteri
+  customer_details: "Musteri Detaylari"
+  customer_details_updated: "Musteri Detaylari Guncellendi."
+  customer_search: "Musteri Arama"
+  cut: Kes
+  date_completed: Tarih Tamamlandi
+  date_created: Tarih Olusturuldu
+  date_range: "Tarih Araligi"
+  debit: Borc
+  default: Standart
+  default_meta_description: Standart Meta Aciklama
+  default_meta_keywords: Standart Meta Anahtar Kelimeler
+  default_seo_title: Standart Seo Title
+  default_tax: Standart Vergi
+  default_tax_zone: Standart Vergi Bolgesi
+  defined_paperclip_styles: Defined Paperclip Styles
+  delete: Sil
+  delivery: Teslimat
+  depth: Derinlik
+  description: Aciklama
+  destroy: Sil
+  didnt_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
+  didnt_receive_unlock_instructions: "Didn't receive unlock instructions?"
+  discount_amount: "Indirim miktari"
+  dismiss_banner: "Hayir. Tesekkurler! Ilgilenmiyorum, bu mesaji bir daha gosterme"
+  display: Sergile
+  display_currency: "Para birimini goster"
+  dollar_amounts_displayed_as: "Dolar miktari bu sekilde gosteriliyor %{example}"
+  edit: Edit
+  edit_general_settings: "Genel Ayarlari Duzenle"
+  editing_billing_integration: Fatura Integrasyonu Duzenleniyor
+  editing_category: "Kategori Duzenleniyor"
+  editing_mail_method: Mail Metodu Duzenleniyor
+  editing_option_type: "Secenek Tipi Duzenleniyor"
+  editing_option_types: "Secenek Tipleri Duzenleniyor"
+  editing_payment_method: Odeme Metodu Duzenleniyor
+  editing_product: "Urun Duzenleniyor"
+  editing_product_group: "Urun Gruplari Duzenleniyor"
+  editing_promotion: Promosyon Duzenleniyor
+  editing_property: "Ozellik Duzenleniyor"
+  editing_prototype: "Prototip Duzenleniyor"
+  editing_shipping_category: "Teslimat Kategorisi Duzenleniyor"
+  editing_shipping_method: "Teslimat Metodu Duzenleniyor"
+  editing_state: "State Duzenleniyor" # Emin Degilim
+  editing_tax_category: "Vergi Kategorisi Duzenleniyor"
+  editing_tax_rate: "Vergi Orani Duzenleniyor"
+  editing_tracker: Tracker Duzenleniyor
+  editing_user: "Kullanici Duzenleniyor"
+  editing_zone: "Bolge Duzenleniyor"
+  email: Email
+  email_address: "Email Adres"
+  email_server_settings_description: "Email server ayarlarini duzenle."
+  empty: "Bos"
+  empty_cart: "Sepeti Bosalt"
+  enable_login_via_login_password: "Standart email/sifreyi kullan."
+  enable_login_via_openid: "OpenID'yi kullan"
+  enable_mail_delivery: Mail Gonderimini Etkinlestir
+  ending_in: "Ending in" # ???
+  enter_at_least_five_letters: Musteri isminin en az bes harfini gir
+  enter_exactly_as_shown_on_card: Lutfen kartta gosterildigi gibi giriniz.
+  enter_password_to_confirm: "(Degisiklikleri onaylamak icin simdiki sifrenize ihtiyacimiz var)"
+  enter_token: Enter Token
+  environment: "Ortam"
+  error: hata
+  error_user_destroy_with_orders: "Tamamlanmis siparasi olan kullanicilar silinemez"
+  errors: 
+    messages: 
+      could_not_create_taxon: "Taxon olusturulamiyor"
+      no_payment_methods_available: "Bu ortam icin odeme metodu olusturulmamis"
+      no_shipping_methods_available: "Bulundugunuz bolge icin kargo metodu bulunmuyor, lutfen adresinizi degistirip tekrar deneyiniz."
+  errors_prohibited_this_record_from_being_saved: 
+    one: "1 hata bu kayitin kaydedilmesini engelledi"
+    other: "%{count} hata bu kayitin kaydedilmesini engelledi"
+  event: Olay
+  events: 
+    spree: 
+      cart: 
+        add: 'Sepete Ekle'
+      checkout: 
+        coupon_code_added: Kupon Kodu Eklendi
+      content: 
+        visited: Statik Icerik Sayfasina Git #???
+      order: 
+        contents_changed: "Siparis icekleri degistirildi"
+      page_view: "Statik Sayfa Goruntulendi"
+      user: 
+        signup: 'Kullani Kayiti'
+  existing_customer: "Kayitli Musteri"
+  expiration: "Bitis Suresi"
+  expiration_month: "Bitis Tarihi Ay"
+  expiration_year: "Bitis Tarihi Yil"
+  expiry: Vade #???
+  extension: Extension
+  extensions: Extensions
+  filename: Doya Adi
+  final_confirmation: "Son Onaylama"
+  finalize: Finalize
+  finalized_payments: Finalized Payments
+  first_item: Ilk Esya Tutari
+  first_name: "Isim"
+  first_name_begins_with: "Ile baslayan isimler"
+  flat_percent: Duz Yuzde # ???
+  flat_rate_amount: Miktar
+  flat_rate_per_item: "Flat Rate (per item)"
+  flat_rate_per_order: "Flat Rate (per order)"
+  flexible_rate: "Flexible Rate"
+  forgot_password: "Sifremi Unuttum"
+  free_shipping: Ucretsiz Kargo
+  from_state: From State
+  front_end: Front End
+  full_name: "Butun Isim"
+  gateway: Gateway
+  gateway_config_unavailable: "Bu ortam icin Gateway mevcut degil"
+  gateway_configuration: "Gateway Konfigurasyonu"
+  gateway_error: "Gateway Hatasi"
+  gateway_setting_description: "Bir Odeme Gateway secin ve ozelliklerini konfigure edin."
+  gateway_settings_warning: "Eger Odeme Gateway'ini degistiriyorsaniz, once Gateway ayarlarini kaydetmelisiniz."
+  general: "Genel"
+  general_settings: "Genel Ayarlar"
+  general_settings_description: "Genel Spree ayarlarini konfigure et."
+  google_analytics: "Google Analitic"
+  google_analytics_active: "Aktif"
+  google_analytics_create: "Yeni Google Analitik Hesabi Olustur."
+  google_analytics_id: "Analitik ID"
+  google_analytics_new: "Yeni Google Analitic Hesabi"
+  google_analytics_setting_description: "Google Analitic Hesabini Yonet"
+  guest_checkout: Misafir Alisverisi
+  guest_user_account: Misafir Olarak Alisveris Yap
+  has_no_shipped_units: has no shipped units
+  height: Uzunluk
+  hello_user: "Merhaba Kullanici"
+  history: Gecmis
+  home: "Ana Sayfa"
+  icon: "Ikon"
+  icons_by: "Icons by"
+  image: Resim
+  image_settings: "Resim Ayarlari"
+  image_settings_description: "Resim Ayarlari Aciklamasi"
+  image_settings_updated: "Resim Ayarlari Basariyla Guncellendi."
+  image_settings_warning: "You will need to regenerate thumbnails if you update the paperclip styles. Use rake paperclip:refresh:thumbnails to do this."
+  images: Resimler
+  images_for: "Resimler"
+  in_progress: "Isleniyor"
+  include_in_shipment: Siparise Ilave Et
+  included_in_other_shipment: Diger Siparise Ilave Edildi
+  included_in_price: Ucrete Eklendi
+  included_in_this_shipment: Bu Siparise Ilave Edildi
+  included_price_validation: "Eger standart Vergi Bolgesi ayarlamamissaniz secilemez"
+  instructions_to_reset_password: "Sifresinizi sifirlamak icin asagidaki formu doldurun, yeni sifreiniz emailinize gonderilecek. "
+  insufficient_stock: "Insufficient stock available, only %{on_hand} remaining"
+  integration_settings_warning: "Eger fatura integrasyonunu degistiriyorsaniz, once kaydetmelisiniz."
+  intercept_email_address: Intercept Email Address
+  intercept_email_instructions: "Override email recipient and replace with this address."
+  invalid_search: "Yanlis arama kriteri."
+  inventory: Envanter
+  inventory_adjustment: "Envanter Duzenlemeleri"
+  inventory_setting_description: "Envanter Konfigirasyonu, Backordering, Sifir-Stok Gosterimi"
+  inventory_settings: "Envanter Ayarlari"
+  is_not_available_to_shipment_address: kargo adresine kayitli degil
+  issue_number: Sorun Numarasi
+  item: Urun
+  item_description: "Urun aciklamasi"
+  item_total: "Toplam urun"
+  item_total_rule: 
+    operators: 
+      gt: buyuktur
+      gte: buyuk yada esittir
+  landing_page_rule: 
+    path: Path
+  last_name: "Soyisim"
+  last_name_begins_with: "Ile baslayan Soyismi"
+  learn_more: Learn More
+  leave_blank_to_not_change: "(Degistirmek istemiyorsaniz bos birakin)"
+  list: Liste
+  listing_categories: "Kategori Listesi"
+  listing_option_types: "Secenek Tipleri Listesi"
+  listing_orders: "Siparis Listesi"
+  listing_product_groups: "Urun Gruplari Listesi"
+  listing_products: "Urun Listesi"
+  listing_reports: "Rapor Listesi"
+  listing_tax_categories: "Vergi Kategorileri Listesi"
+  listing_users: "Kullanici Listesi"
+  live: "Live"
+  loading: Yukleniyor
+  locale_changed: "Lokal Degistirildi"
+  logged_in_as: "Giris yapildi"
+  logged_in_succesfully: "Basariyla Giris Yapildi"
+  logged_out: "Cikis yapildi."
+  login: Uye Girisi 
+  login_as_existing: "Uye olarak giris yap"
+  login_failed: "Giris Basarisiz."
+  login_name: Giris 
+  logout: Cikis Yap
+  look_for_similar_items: Benzer Urunlere Bak
+  maestro_or_solo_cards: Maestro/Solo cards
+  mail_delivery_enabled: "Mail gonderimi aktiflestirildi"
+  mail_delivery_not_enabled: "Mail gonderimi aktif degil"
+  mail_methods: Mail Metodlari
+  mail_server_preferences: Mail Server Secenekleri
+  make_refund: Make refund
+  mark_shipped: "Mark Shipped"
+  master_price: "Master Price"
+  match_choices: 
+    all: "Hepsi"
+    none: "Hicbiri"
+    one: "Biri"
+  match_rule: "Products That Must Match:"
+  max_items: Max Items
+  meta_description: "Meta Description"
+  meta_keywords: "Meta Keywords"
+  metadata: "Metadata"
+  minimal_amount: "Minimal Amount"
+  missing_required_information: "Missing Required Information"
+  month: "Ay"
+  more: Daha
+  my_account: "Hesabim"
+  my_orders: "Siparislerim"
+  name: Isim
+  name_or_sku: "Isim yada Urun Kodu"
+  new: Yeni
+  new_adjustment: "Yeni duzenleme"
+  new_billing_integration: New Billing Integration
+  new_category: "Yeni kategori"
+  new_customer: "Yeni musteri"
+  new_group: Yeni Grup
+  new_image: "Yeni Resim"
+  new_mail_method: Yeni Mail Metodu
+  new_option_type: "Yeni Secenek Tipi"
+  new_option_value: "Yeni Secenek Degeri"
+  new_order: "Yeni Siparis"
+  new_order_completed: "Yeni Siparis Tamamlandi"
+  new_payment: "Yeni Odeme"
+  new_payment_method: Yeni Odeme Methodu
+  new_product: "Yeni Urun"
+  new_product_group: Yeni Urun Grubu
+  new_promotion: Yeni Promosyon
+  new_property: "Yeni Ozellik"
+  new_prototype: "Yeni Prototip"
+  new_return_authorization: New Return Authorization
+  new_shipment: "Yeni Kargo"
+  new_shipping_category: "Yeni Kargo Kategorisi"
+  new_shipping_method: "Yeni Kargo Methodu"
+  new_state: "Yeni Bolge/State"
+  new_tax_category: "Yeni Vergi Kategorisi"
+  new_tax_rate: "Yeni Vergi Orani"
+  new_taxon: "Yeni Kategori Tipi"
+  new_taxonomy: "Yeni Kategori Agaci"
+  new_tracker: New Tracker
+  new_user: "Yeni Kullanici"
+  new_variant: "Yeni Degisken"
+  new_zone: "Yeni Bolge"
+  next: Sonraki
+  say_no: "Hayir"
+  no_items_in_cart: "Sepet bos."
+  no_match_found: "Bulunamadi"
+  no_products_found: "Urun bulunamadi"
+  no_results: "Sonuc yok"
+  no_rules_added: No rules added
+  no_user_found: "Bu email adresi ile kayitli kullanici bulunamadi."
+  none: Hic
+  none_available: "Uygun yok"
+  normal_amount: "Normal Miktar"
+  not: degil
+  not_available: "N/A"
+  not_found: "%{resource} bulunamadi"
+  not_shown: "Gosterilmedi"
+  note: Not
+  notice_messages: 
+    option_type_removed: "Secenek Tipi basariyla kaldirildi."
+    product_cloned: "Urun kopyalandi."
+    product_deleted: "Urun basariyla silindi."
+    product_not_cloned: "Urun kopyalanamiyor."
+    product_not_deleted: "Urun silinemiyor."
+    variant_deleted: "Degisken silindi."
+    variant_not_deleted: "Degisken silinemiyor."
+  on_hand: "On Hand"
+  one_default_category_with_default_tax_rate: "You should configure exactly one default category with your countries default tax rate"
+  operation: Operasyon
+  option_type: "Secenek Tipi"
+  option_types: "Secenek Tipleri"
+  option_value: "Secenek Degeri"
+  option_values: "Secenek Degerleri"
+  options: Secenekler
+  or: yada
+  or_over_price: "%{price} yada uzeri"
+  order: Siparis
+  order_adjustments: "Siparis duzenlemeri"
+  order_confirmation_note: ""
+  order_date: "Siparis Tarihi"
+  order_details: "Siparis Detaylari"
+  order_email_resent: "Siparis emaili yeniden gonderildi"
+  order_mailer: 
+    cancel_email: 
+      dear_customer: "Sayin musteri,"
+      instructions: "Siparisiniz iptal edilmistir. Lutfen ilerdeki islemler icin bu emali kaybetmeyin."
+      order_summary_canceled: "Siparis Ozeti [IPTAL EDILDI]"
+      subject: "Siparis Iptali"
+      subtotal: "Alt Toplam:"
+      total: "Siparis Toplam:"
+    confirm_email: 
+      dear_customer: "Sayin Musteri,"
+      instructions: "Ilerideki islemler icin lutfen bu mesaji okuyup saklayin."
+      order_summary: "Siparis Ozeti"
+      subject: "Siparis Onayi"
+      subtotal: "Alt Toplam:"
+      thanks: "Tesekkur Ederiz"
+      total: "Toplam Siparis:"
+  order_not_in_system: Bu siparis numarasi gecerli degil.
+  order_number: Siparis
+  order_operation_authorize: Yetkilendir
+  order_processed_but_following_items_are_out_of_stock: "Siparis islendi ama bazi urunler stokta yok."
+  order_processed_successfully: "Siparisiniz basariyla islendi."
+  order_state: # keys correspond to Checkout state names:
+    address: adres
+    adjustments: ayarlamalar
+    awaiting_return: donmeyi bekleyen
+    canceled: iptal edildi
+    cart: sepet
+    complete: tamamlandi
+    confirm: onayla
+    delivery: teslimat
+    payment: odeme
+    resumed: devam
+    returned: geri dondu
+    skrill: skrill    #????
+  order_summary: Siparis Ozeti
+  order_sure_want_to: "Bu siparisi %{event} istediginize emin misiniz?"
+  order_total: "Siparis Toplam"
+  order_total_message: "Kredi kartinizdan cekilecek toplam miktar"
+  order_updated: "Siparis Guncenllendi"
+  orders: Siparisler
+  other_payment_options: Diger Odeme Secenekleri
+  out_of_stock: "Stokta yok"
+  over_paid: "Fazla Odeme"
+  overview: Genel Bakis
+  page_only_viewable_when_logged_in: Sadece Uyeler bu sayfayi gorebilir.
+  page_only_viewable_when_logged_out: Bu sayfayi gormek icin cikis yapiniz.
+  pagination: 
+    next_page: "sonraki sayfa &raquo;"
+    previous_page: "&laquo; onceki sayfa"
+    truncate: "&hellip;"
+  paid: Odendi
+  parent_category: "Ana Kategori"
+  password: Sifre
+  password_reset_instructions: "Sifre Sifirlama Talimatlari"
+  password_reset_instructions_are_mailed: "Sifreinizi sifirlamak icin gerekli talimatlar email'inze gonderildi. Lutfen mailinizi kontrol ediniz."
+  password_reset_token_not_found: "Uzgunuz ama hesabinizi bulamadik. Eger sorun yasiyorsaniz emalinizdeki URL'yi kopyalayip, yapistirin ve sifre sifirlama islemini yeniden baslatin."
+  password_updated: "Sifre basariyla guncellendi"
+  paste: Yapistir
+  path: Yol
+  pay: Ode
+  payment: Odeme
+  payment_actions: "Odeme harekerleti"
+  payment_gateway: "Odeme Gateway'i"
+  payment_information: "Odeme Bilgisi"
+  payment_method: Odeme Metodu
+  payment_methods: Odeme Metodlari
+  payment_methods_setting_description: Kullanicin kullanacagi odeme metodlarini konfigure et
+  payment_processing_failed: "Odeme islenemiyor, lutfen girdiniz bilgileri kontrol edin."
+  payment_processor_choose_banner_text: "Eger odeme islemcisi secmek icin bilgi istiyorsaniz, takip edin."
+  payment_processor_choose_link: "Odemelerimiz Sayfasi"
+  payment_state: Odeme Durumu
+  payment_states: 
+    balance_due: Borclu
+    checkout: checkout
+    completed: tamamlandi
+    credit_owed: credit owed
+    failed: basarisiz
+    paid: odendi
+    pending: askida
+    processing: isleniyor
+    void: bos
+  payment_updated: Odeme Guncellendi
+  payments: Odemeler
+  pending_payments: Askidaki Odemeler
+  percent_per_item: Urun basina yuzde
+  permalink: Permalink
+  phone: Telefon
+  place_order: Siparis Ver
+  please_create_user: "Lutfen kullanici hesabi olusturunuz."
+  please_define_payment_methods: "Lutfen odeme metodu seciniz."
+  populate_get_error: "Hata. Lutfen urunu yeniden eklemeyi deneyin."
+  powered_by: "ile gelistirilmistir."
+  presentation: Sunum
+  preview: Onizleme
+  previous: Onceki
+  price: Fiyat
+  price_range: Fiyat Araligi
+  price_sack: Price Sack
+  problem_authorizing_card: "Problem authorizing credit card"
+  problem_capturing_card: "Problem capturing credit card"
+  problems_processing_order: "We had problems processing your order"
+  proceed_as_guest: "Tesekkurler, misafir olarak devam et"
+  process: Surec
+  product: Urun
+  product_details: "Urun Detaylari"
+  product_group: Urun Grubu
+  product_group_invalid: Urun Grubu gecersiz kapsamlara sahip
+  product_groups: Urun Gruplari
+  product_has_no_description: Bu urunun aciklamasi yok
+  product_properties: "Urun Ozellikleri"
+  product_rule: 
+    choose_products: Urunleri sec
+    label: "Sipariste bu urunlerden %{select} bulundurmalidir"
+    match_all: hepsini
+    match_any: en azindan birini
+    product_source: 
+      group: Urun gruplarindan
+      manual: elle sec
+  product_scopes: 
+    groups: 
+      price: 
+        description: "Fiyata gore urunleri sec."
+        name: Price
+      search: 
+        description: "Isim, kelime yada aciklamaya gore urunu sec"
+        name: "Kelime arama"
+      taxon: 
+        description: "Urunu belli kategoriye sec."
+        name: Kategori
+      values: 
+        description: "Secenek yada degere gore urunleri sec."
+        name: Degerler
+    scopes: 
+      ascend_by_name: 
+        name: Urun ismine gore azalan sirala
+      ascend_by_updated_at: 
+        name: Gerceklestirilme tarihine gore azalan sirala
+      descend_by_name: 
+        name: Urun ismine gore cogalan sirala
+      descend_by_updated_at: 
+        name: Gerceklestirilme tarihine gore cogalan sirala
+      in_name: 
+        args: 
+          words: Kelimeler
+        description: "(virgul yada boslukla ayrilmis)"
+        name: "Suna sahip urun isimleri"
+        sentence: suna sahip urun isimleri <em>%s</em>
+      in_name_or_description: 
+        args: 
+          words: Kelimeler
+        description: "(virgul yada boslukla ayrilmis)"
+        name: "Product name or description have following"
+        sentence: name or description contain <em>%s</em>
+      in_name_or_keywords: 
+        args: 
+          words: Words
+        description: "(separated by space or comma)"
+        name: "Product name or meta keywords have following"
+        sentence: name or keywords contain <em>%s</em>
+      in_taxons: 
+        args: 
+          "taxon_names": "Taxon names"
+        description: "Taxon names have to be separated by comma or space(eg. adidas,shoes)"
+        name: "In taxons and all their descendants"
+        sentence: in <em>%s</em> and all their descendants
+      master_price_gte: 
+        args: 
+          amount: Amount
+        description: ""
+        name: "Master price greater or equal to"
+        sentence: price greater or equal to <em>%.2f</em>
+      master_price_lte: 
+        args: 
+          amount: Amount
+        description: ""
+        name: "Master price lesser or equal to"
+        sentence: price less or equal to <em>%.2f</em>
+      price_between: 
+        args: 
+          high: High
+          low: Low
+        description: ""
+        name: "Price between"
+        sentence: price between <em>%.2f</em> and <em>%.2f</em>
+      taxons_name_eq: 
+        args: 
+          taxon_name: "Taxon name"
+        description: "In specific taxon - without descendants"
+        name: "In Taxon(without descendants)"
+        sentence: in <em>%s</em>
+      with: 
+        args: 
+          value: Value
+        description: "Select specific products"
+        name: Products with IDs
+        sentence: with IDs <em>%s</em>
+      with_ids: 
+        args: 
+          ids: IDs
+        description: "Select specific products"
+        name: Products with IDs
+        sentence: with IDs <em>%s</em>
+      with_option: 
+        args: 
+          option: Option
+        description: "Selects all products that have specified option(eg. color)"
+        name: "With option"
+        sentence: with option <em>%s</em>
+      with_option_value: 
+        args: 
+          option: Option
+          value: Value
+        description: "Selects all products that have at least one variant with specified option and value(eg. color:red)"
+        name: "With option and value"
+        sentence: with option <em>%s</em> and value <em>%s</em>
+      with_property: 
+        args: 
+          property: Property
+        description: "Selects all products that have specified property(eg. weight)"
+        name: "With property"
+        sentence: with property <em>%s</em>
+      with_property_value: 
+        args: 
+          property: Property
+          value: Value
+        description: "Selects all products that have at least one variant with specified property and value(eg. weight:10kg)"
+        name: "With property value"
+        sentence: with property <em>%s</em> and value <em>%s</em>
+  products: Urunler
+  products_with_zero_inventory_display: "Products with a zero inventory will %{not} be displayed"
+  promotion: Promosyon
+  promotion_action: Promotion Action
+  promotion_action_types: 
+    create_adjustment: 
+      description: Creates a promotion credit adjustment on the order
+      name: Create adjustment
+    create_line_items: 
+      description: Populates the cart with the specified quantity of variant
+      name: Create line items
+    give_store_credit: 
+      description: Gives the user store credit of the amount specified
+      name: Give store credit
+  promotion_actions: Actions
+  promotion_form: 
+    match_policies: 
+      all: Match any of these rules
+      any: Match all of these rules
+  promotion_not_found: The coupon code you entered doesn't exist. Please try again.
+  promotion_rule: Promotion Rule
+  promotion_rule_types: 
+    first_order: 
+      description: Must be the customer's first order
+      name: First order
+    item_total: 
+      description: Order total meets these criteria
+      name: Item total
+    landing_page: 
+      description: Customer must have visited the specified page
+      name: Landing Page
+    product: 
+      description: Order includes specified product(s)
+      name: Product(s)
+    user: 
+      description: Available only to the specified users
+      name: User
+    user_logged_in: 
+      description: Available only to logged in users
+      name: User Logged In
+  promotions: Promotions
+  promotions_description: Manage offers and coupons with promotions
+  properties: Properties
+  property: Property
+  prototype: Prototype
+  prototypes: Prototypes
+  provider: "Provider"
+  provider_settings_warning: "If you are changing the provider type, you must save first before you can edit the provider settings"
+  qty: Qty
+  quantity_returned: Quantity Returned
+  quantity_shipped: Quantity Shipped
+  range: "Range"
+  rate: Rate
+  reason: Reason
+  recalculate_order_total: "Recalculate order total"
+  receive: receive
+  received: Received
+  refund: Refund
+  register: Register as a New User
+  register_or_guest: Checkout as Guest or Register
+  registration: Registration
+  remember_me: "Remember me"
+  remove: Remove
+  rename: Rename
+  reports: Reports
+  required_for_solo_and_maestro: Required for Solo and Maestro cards.
+  resend: Resend
+  resend_confirmation_instructions: "Resend confirmation instructions"
+  resend_unlock_instructions: "Resend unlock instructions"
+  reset_password: "Reset my password"
+  resource_controller: 
+    member_object_not_found: "Member object not found."
+    successfully_created: "Successfully created!"
+    successfully_removed: "Successfully removed!"
+    successfully_updated: "Successfully updated!"
+  response_code: "Response Code"
+  resume: "resume"
+  resumed: Resumed
+  return: return
+  return_authorization: Return Authorization
+  return_authorization_updated: Return authorization updated
+  return_authorizations: Return Authorizations
+  return_quantity: Return Quantity
+  returned: Returned
+  review: Review
+  rma_credit: RMA Credit
+  rma_number: RMA Number
+  rma_value: RMA Value
+  roles: Roles
+  rules: Rules
+  s3_access_key: "Access Key"
+  s3_bucket: "Bucket"
+  s3_headers: "S3 Headers"
+  s3_not_used_for_product_images: "S3 is not being used for product images"
+  s3_protocol: "S3 Protocol"
+  s3_secret: "Secret Key"
+  s3_used_for_product_images: "S3 is being used for product images"
+  sales_tax: "Sales Tax"
+  sales_total: "Sales Total"
+  sales_total_description: "Sales Total For All Orders"
+  save_and_continue: Save and Continue
+  save_preferences: Save Preferences
+  scope: Scope
+  scopes: Scopes
+  search: Search
+  search_results: "Search results for '%{keywords}'"
+  searching: Searching
+  secure_connection_type: Secure Connection Type
+  secure_credit_card: Secure Credit Card
+  security_settings: "Security Settings"
+  select: Select
+  select_from_prototype: "Select From Prototype"
+  select_preferred_shipping_option: "Select preferred delivery option"
+  send_copy_of_all_mails_to: Send Copy of All Mails To
+  send_copy_of_orders_mails_to: Send Copy of Order Mails To
+  send_mails_as: Send Mails As
+  send_me_reset_password_instructions: "Send me reset password instructions"
+  send_order_mails_as: Send Order Mails As
+  server: Server
+  server_error: "The server returned an error"
+  settings: Settings
+  ship: ship
+  ship_address: "Ship Address"
+  shipment: Shipment
+  shipment_details: Shipment Details
+  shipment_inc_vat: "Shipment including VAT"
+  shipment_mailer: 
+    shipped_email: 
+      dear_customer: "Dear Customer,"
+      instructions: "Your order has been shipped"
+      shipment_summary: "Shipment Summary"
+      subject: "Shipment Notification"
+      thanks: "Thank you for your business."
+      track_information: "Tracking Information: %{tracking}"
+  shipment_number: "Shipment #"
+  shipment_state: Shipment State
+  shipment_states: 
+    backorder: backorder
+    partial: partial
+    pending: pending
+    ready: ready
+    shipped: shipped
+  shipment_updated: Shipment Updated
+  shipments: "Shipments"
+  shipped: Shipped
+  shipping: Delivery
+  shipping_address: "Delivery Address"
+  shipping_categories: "Shipping Categories"
+  shipping_categories_description: "Manage shipping categories to identify which products can be shipped via which method"
+  shipping_category: Shipping Category
+  shipping_category_choose: "Shipping Category"
+  shipping_cost: Cost
+  shipping_error: "Delivery Error"
+  shipping_instructions: "Delivery Instructions"
+  shipping_method: "Delivery Method"
+  shipping_methods: "Delivery Methods"
+  shipping_methods_description: "Manage shipping methods"
+  shipping_total: "Delivery Total"
+  shop_by_taxonomy: "%{taxonomy}"
+  shopping_cart: "Shopping Basket"
+  short_description: "Short description"
+  show: Show
+  show_active: "Show Active"
+  show_deleted: "Show Deleted"
+  show_incomplete_orders: "Show Incomplete Orders"
+  show_only_complete_orders: "Only show complete orders"
+  show_only_unfulfilled_orders: "Show only unfulfilled orders"
+  show_out_of_stock_products: "Show out-of-stock products"
+  showing_first_n: "Showing first %{n}"
+  sign_up: "Sign up"
+  site_name: "Site Name"
+  site_url: "Site URL"
+  sku: SKU
+  smtp: SMTP
+  smtp_authentication_type: SMTP Authentication Type
+  smtp_domain: SMTP Domain
+  smtp_mail_host: SMTP Mail Host
+  smtp_password: SMTP Password
+  smtp_port: SMTP Port
+  smtp_send_all_emails_as_from_following_address: "Send all mails as from the following address."
+  smtp_send_copy_to_this_addresses: "Sends a copy of all outgoing mails to this address. For multiple addresses, separate with commas."
+  smtp_username: SMTP Username
+  sold: Sold
+  sort_ordering: "Sort ordering"
+  special_instructions: "Special Instructions"
+  spree: 
+  spree/order: 
+    coupon_code: Coupon Code
+    date: Date
+    date_picker: 
+      format: 'yy/mm/dd'
+    time: Time
+  spree_alert_checking: "Check for Spree security and release alerts"
+  spree_alert_not_checking: "Not checking for Spree security and release alerts"
+  spree_gateway_error_flash_for_checkout: "There was a problem with your payment information. Please check your information and try again."
+  spree_inventory_error_flash_for_insufficient_quantity: "An item in your cart has become unavailable."
+  ssl_will_be_used_in_development_and_test_modes: "SSL will be used in development and test mode if necessary."
+  ssl_will_be_used_in_production_mode: "SSL will be used in production mode"
+  ssl_will_be_used_in_staging_mode: "SSL will be used in staging mode"
+  ssl_will_not_be_used_in_development_and_test_modes: "SSL will not be used in development and test mode if necessary."
+  ssl_will_not_be_used_in_production_mode: "SSL will not be used in production mode"
+  ssl_will_not_be_used_in_staging_mode: "SSL will not be used in staging mode"
+  start: Start
+  start_date: Valid from
+  state: County
+  state_based: "State Based"
+  state_setting_description: "Administer the list of states/provinces associated with each country."
+  states: Counties
+  status: Status
+  stop: Stop
+  store: Store
+  street_address: "Street Address"
+  street_address_2: "Street Address (cont'd)"
+  subtotal: Subtotal
+  subtract: Subtract
+  successfully_created: "%{resource} has been successfully created!"
+  successfully_removed: "%{resource} has been successfully removed!"
+  successfully_updated: "%{resource} has been successfully updated!"
+  system: System
+  tax: Tax
+  tax_categories: "Tax Categories"
+  tax_categories_setting_description: "Set up tax categories to identify which products should be taxable."
+  tax_category: "Tax Category"
+  tax_rates: "Tax Rates"
+  tax_rates_description: Tax rates setup and configuration.
+  tax_settings: "Tax settings"
+  tax_settings_description: Basic tax settings.
+  tax_total: "Tax Total"
+  tax_type: "Tax Type"
+  taxon: Taxon
+  taxon_edit: Edit Taxon
+  taxonomies: Taxonomies
+  taxonomies_setting_description: "Create and manage taxonomies"
+  taxonomy: Taxonomy
+  taxonomy_edit: "Edit taxonomy"
+  taxonomy_tree_error: "The requested change has not been accepted and the tree has been returned to its previous state, please try again."
+  taxonomy_tree_instruction: "* Right click a child in the tree to access the menu for adding, deleting or sorting a child."
+  taxons: Taxons
+  test: "Test"
+  test_mailer: 
+    test_email: 
+      greeting: 'Congratulations!'
+      message: 'If you have received this email, then your email settings are correct.'
+      subject: 'Testmail'
+  test_mode: Test Mode
+  thank_you_for_your_order: "Thank you for your business.  Please print out a copy of this confirmation page for your records."
+  there_were_problems_with_the_following_fields: "There were problems with the following fields"
+  this_file_language: "English (UK)"
+  thumbnail: "Thumbnail"
+  to_add_variants_you_must_first_define: "To add variants, you must first define"
+  to_state: "To State"
+  total: Total
+  tracking: Tracking
+  transaction: Transaction
+  transactions: Transactions
+  tree: Tree
+  try_again: "Try Again"
+  type: Type
+  type_to_search: Type to search
+  unable_ship_method: "Unable to generate delivery methods due to a server error."
+  unable_to_authorize_credit_card: "Unable to Authorize Credit Card"
+  unable_to_capture_credit_card: "Unable to Capture Credit Card"
+  unable_to_connect_to_gateway: "Unable to connect to gateway."
+  unable_to_save_order: "Unable to Save Order"
+  under_paid: "Under Paid"
+  under_price: "%{price} alti"
+  unrecognized_card_type: Unrecognized card type
+  update: Update
+  update_password: "Update my password and log me in"
+  updated_successfully: "Updated Successfully"
+  updating: Updating
+  usage_limit: Usage Limit
+  use_as_shipping_address: Use as Delivery Address
+  use_billing_address: Use Billing Address
+  use_different_shipping_address: "Use Different Delivery Address"
+  use_new_cc: "Use a new card"
+  use_s3: "Use Amazon S3 For Images"
+  user: User
+  user_account: User Account
+  user_created_successfully: "User created successfully"
+  user_rule: 
+    choose_users: Choose users
+  users: Users
+  validate_on_profile_create: Validate on profile create
+  validation: 
+    cannot_be_greater_than_available_stock: "cannot be greater than available stock."
+    cannot_be_less_than_shipped_units: "cannot be less than the number of shipped units."
+    cannot_destory_line_item_as_inventory_units_have_shipped: "Cannot destory line item as some inventory units have shipped."
+    is_too_large: "is too large -- stock on hand cannot cover requested quantity!"
+    must_be_int: "must be an integer"
+    must_be_non_negative: "must be a non-negative value"
+  value: Value
+  variant: Variant
+  variants: Variants
+  vat: "VAT"
+  version: Version
+  view_shipping_options: "View shipping options"
+  void: Void
+  website: Website
+  weight: Weight
+  welcome_to_sample_store: "Welcome to the sample store"
+  what_is_a_cvv: "What is a (CVV) Credit Card Code?"
+  what_is_this: "What's This?"
+  whats_this: "What's this"
+  width: Width
+  year: "Year"
+  say_yes: "Yes"
+  you_have_been_logged_out: "You have been logged out."
+  you_have_no_orders_yet: "You have no orders yet."
+  your_cart_is_empty: "Your basket is empty"
+  zip: PIN Code
+  zone: Zone
+  zone_based: "Zone Based"
+  zone_setting_description: "Collections of countries, states or other zones to be used in various calculations."
+  zones: Zones
